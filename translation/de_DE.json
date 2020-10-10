@@ -1,0 +1,282 @@
+{
+    "code": "de_DE",
+    "and": " und ",
+    "server_join": {
+        "hi_im_deku": "Hallo, Ich bin Deku!",
+        "description": "Ich wurde von **pedrofracassi#4623** erschaffen, um dir zu helfen, deine Gilde zu organisieren.\n\nWenn du mehr über mich erfahren möchtest, tippe d!help.\n\n{0} [Füge mich zu deinem Server hinzu]({1}) | [Trete meinem Server bei]({2})"
+    },
+    "commands": {
+        "osu": {
+            "_description": "Zeigt ein osu!-Profil",
+            "_usage": "d!osu <ID oder Nutzername>",
+            "title": "{0}'s profile",
+            "player_doesnt_exist": "Dieser Spieler existiert nicht.",
+            "is_spelled_correctly": "Bitte überprüfe, ob du den Namen des Spielers richtig geschrieben hast.",
+            "specify_player": "Bitte gebe einen Spieler an.",
+            "usage": "**Nutzung:** d!osu <ID oder Nutzername>\n**Beispiel:** d!osu pedrofracassi",
+            "accuracy": "Genauigkeit",
+            "ranked_score": "Geordnete Punktzahl",
+            "total_score": "Gesamtpunktzahl",
+            "level": "Level",
+            "ranks": "Ränge",
+            "performance": "Leistung",
+            "country_ranking": "Länder Ranking",
+            "global_ranking": "Weltweites Ranking",
+            "play_count": "Spielzähler",
+            "weird_error": "Die osu! API gibt keine Variablen für diesen Account zurück.",
+            "not_our_fault": "Das ist nicht meine Schuld, es ist die Schuld von ppy.\n\n[Du kannst das Profil auf der Website überprüfen, wenn du willst]({0})",
+            "error_ocurred": "Es ist ein Fehler beim beschaffen des !osu Profils aufgetreten."
+        },
+        "playing": {
+            "_description": "Zeigt, wie viele Menschen ein bestimmtes Spiel im Moment spielen",
+            "_usage": "d!playing <Spiel>",
+            "zero": "Es gibt **niemanden** in dieser gilde, die momentan {0} spielt",
+            "one": "Aktuell spielt in dieser gilde **eine** Person {0}",
+            "more": "Aktuell spielen **{1}** spieler {0}",
+            "error_no_args": "Du musst das spiel angeben!",
+            "usage": "**Nutzung:** `d!playing <Spiel>`\n**Beispiel:** `d!playing Overwatch`"
+        },
+        "setlang": {
+            "_description": "Ändert meine Sprache auf dem Server",
+            "_usage": "d!setlang <Sprache>",
+            "no_args": "Du musst eine Sprache auswählen.",
+            "no_permission": "Du brauchst die **\"Manage Guild\"** Berechtigung, um meine Sprache zu ändern.",
+            "not_supported": "\"{0}\" ist keine unterstützte Sprache.",
+            "usage": "**Nutzung:** `d!setlang <Sprache>`\n**Beispiel:** `d!setlang en_US`\n\n**Unterstützte Sprachen:**\n{0}",
+            "success": "Die Sprache wurde erfolgreich zu `{0}`geändert!"
+        },
+        "botinfo": {
+            "_description": "Zeigt Informationen über mich",
+            "_usage": "d!botinfo",
+            "error_ip": "Es ist ein Fehler beim ermitteln meiner eigenen IP aufgetreten",
+            "error_ip_desc": "Bitte kontaktiere meinen Besitzer, pedrofracassi#4623",
+            "users": "Nutzer",
+            "servers": "Server",
+            "server_location": "Serverstandort",
+            "uptime": "Betriebszeit",
+            "channels": "Kanäle",
+            "ram": "Arbeitsspeicherauslastung",
+            "djs_v": "Discord.js Version"
+        },
+        "lol": {
+            "mastery_points": "Mastery Points",
+            "summoner_level": "Beschwörungslevel",
+            "rankeds": "Eingeordnete",
+            "Region": "Region",
+            "valid_regions": "**Gültige Regionen:**",
+            "summoner_error": "Es ist uns ein Fehler während des Landens von diesem Beschwörerprofil unterlaufen.",
+            "summoner_error_desc": "Bitte kontaktiere meinen Besitzer (pedrofracassi#4623), damit er das Problem beheben kann.",
+            "summoner_region_error": "Du musst einen Beschwörer und eine Region auswählen!",
+            "invalid_region_error": "\"{0}\" ist keine gültige Region!",
+            "error_desc": "**Nutzung:** `d!lol! <Region> <Beschwörer>`\n**Beispiel:** `d!lol br pedrinholuizf`",
+            "error_desc_with_regions": "**Nutzung:** d!lol <Region> <Beschwörer>`\n**Beispiel:** `d!lol br pedrinholuizf`\n\n**Gültige Regionen:**\n{0}.",
+            "no_summoner_error": "Du musst einen Beschwörer auswählen!",
+            "elos": {
+                "UNRANKED": "Nicht eingeordnet",
+                "BRONZE": "Bronze",
+                "SILVER": "Silber",
+                "GOLD": "Gold",
+                "DIAMOND": "Diamant",
+                "MASTER": "Meister",
+                "CHALLENGER": "Herausfordernd",
+                "PLATINUM": "Platin"
+            },
+            "best_champion": "Bester Champion",
+            "_description": "Zeigt Informationen über eine League of Legends Beschwörer",
+            "_usage": "d! lol <region> <summoner>"
+        },
+        "lmgtfy": {
+            "_description": "Generiert einen \"Let Me Google That For You\" Link",
+            "_usage": "d!lmgtfy <Suchbegriff> [--explain]",
+            "no_question": "Du musst die Frage angeben, zu der Ich einen Link generieren soll.",
+            "_example": "d!lmgtfy Wie lädt man Discord Canary herunter --explain"
+        },
+        "roleme": {
+            "_description": "Dir wird vom Server eine Rolle zugewiesen.",
+            "_usage": "d!roleme [add|--remove] <Rolle> [Rollen-ID]",
+            "add_success": "{0} wurde zu `d!roleme` als `{1}` hinzugefügt",
+            "id_not_role": "`{0}` ist keine gültige Rolle für diesen Server.",
+            "no_permission": "Du brauchst die **\"Manage Guild\"** Berechtigung, um das zu tun",
+            "insuficcient_args_add": "Du musst einen Rollennamen und eine Rollen-ID spezifizieren.",
+            "insuficcient_args_remove": "Du musst einen Rollennamen spezifizieren!",
+            "add_usage": "**Nutzung:** `d!roleme --add <Rollenname> <Rollen-ID>`\n**Beispiel:** `d!roleme --add lol 358446520334286851`\n\nPro-Tipp: Du kannst die Rollen-IDs mit `d!roleids` abfragen",
+            "remove_usage": "**Nutzung:** `d!romele --remove <Rollenname>`\n**Beispiel:** `d!roleme --remove lol`",
+            "no_roles": "Dieser Server hat keine `d!roleme` Rollen.",
+            "remove_success": "Ich habe `{0}` von den `d!roleme` Rollen entfernt.",
+            "not_roleme": "`{0} ist keine `d!roleme` Rolle.",
+            "no_roleme_roles": "Dieser Server hat keine `d!roleme` Rollen.",
+            "command": "Kommando",
+            "role": "Rolle",
+            "heres_a_list": "Hier ist eine Liste mit den verfügbaren Rollen:",
+            "role_give_success": "Ich habe dir die Rolle {0} gegeben.",
+            "role_remove_success": "Ich habe die Rolle {0} für dich entfernt.",
+            "role_give_fail": "Ich war nicht in der Lage, dir die Rolle {0} zu geben.",
+            "role_remove_fail": "Ich war nicht in der Lage, die Rolle {0} von dir zu entfernen.",
+            "please_ask_owner": "Bitte frag' den Serverbesitzer, um meine Berechtigungen zu überprüfen",
+            "invalid_rolename": "Du kannst diese Rolle nicht verwenden!"
+        },
+        "roleids": {
+            "_usage": "d!roleids",
+            "_description": "Zeigt die IDs von den Rollen des Servers",
+            "role": "Rolle",
+            "id": "ID"
+        },
+        "npm": {
+            "_usage": "d!npm <paketnamen>",
+            "_example": "d!npm discord.js",
+            "no_args": "Du musst einen Paketnamen angeben.",
+            "package_not_found": "Ich konnte kein npm Paket unter diesen Namen finden.",
+            "package_not_found_desc": "Bitte kontrolliere, ob du es korrekt geschrieben hast.",
+            "_description": "Zeigt Informationen über ein npm Paket an"
+        },
+        "help": {
+            "check_dm": "Bitte schaue in deine privaten Nachrichten. Ich habe dir dort meine verfügbaren Kommandos geschickt.",
+            "_description": "Sendet dir eine private Nachricht mit all' meinen Kommandos.",
+            "_usage": "d!help"
+        },
+        "topgames": {
+            "_description": "Zeigt die am meisten gespielten Spiele auf dem Server.",
+            "_usage": "d!topgames",
+            "most_played": "Am meisten gespielte Spiele",
+            "line_singular": "`#{0}` mit `{1}` Spieler: **{2}**",
+            "line_plural": "`#{0}` mit `{1}` Spielern: **{2}**"
+        },
+        "serverinfo": {
+            "regions": {
+                "brazil": ":flag_br: Brasilien",
+                "eu-central": ":flag_eu: Zentraleuropa",
+                "hongkong": ":flag_hk: Hongkong ",
+                "us-central": ":flag_us: Zentralamerika",
+                "us-east": ":flag_us: Ostamerika",
+                "us-south": ":flag_us: Südamerika",
+                "us-west": ":flag_us: Westamerika",
+                "russia": ":flag_ru: Russland",
+                "sydney": ":flag_au: Sydney",
+                "eu-west": ":flag_eu: Westeuropa"
+            },
+            "_description": "Zeigt Informationen über den Server",
+            "_usage": "d!serverinfo",
+            "name": "Name",
+            "members": "Mitglieder",
+            "owner": "Besitzer",
+            "region": "Region",
+            "emojis": "Emojis",
+            "roles": "Rollen",
+            "id": "ID"
+        },
+        "stoptyping": {
+            "_description": "Nutze das, wenn ich für immer tippe",
+            "_usage": "d!stoptyping",
+            "trying_to_stop": "probiere, mit dem Tippen aufzuhören..."
+        },
+        "avatar": {
+            "own_picture": "hier ist dein Profilbild",
+            "someones_picture": "hier ist **{0}**'s Profilbild:"
+        },
+        "suggestion": {
+            "_usage": "d! Vorschlag <Ihr Vorschlag>",
+            "_example": "d! suggestion Füge einen Befehl hinzu, der mir den Winkel zeigt",
+            "_description": "Schickt einen Vorschlag an meinen Entwickler",
+            "no_suggestion": "Du musst etwas vorschlagen!",
+            "trello_error": "Ein Fehler entstand beim Versuch, Treda zu deinem Vorschlag hinzuzufügen.",
+            "trello_error_desc": "Bitte kontaktieren Sie meinen Besitzer oder versuchen Sie es später noch einmal.",
+            "card_add_success": "Ich habe meinen Vorschlag meinem Trello Board hinzugefügt."
+        },
+        "bugreport": {
+            "_usage": "d!bugreport <Erläutere den bug>",
+            "_example": "d!bugreport Deku kann nicht 100% seiner Kraft auf meinem Server verwenden.",
+            "_description": "Übermittelt Bugs zu meinem Entwickler.",
+            "no_text": "Du musst einen Bug beschreiben!",
+            "trello_error": "Es ist ein Fehler beim Übermitteln deines Reports an Trello aufgetreten.",
+            "trello_error_desc": "Bitte kontaktiere meinen Entwickler oder versuche es später erneut.",
+            "card_add_success": "Ich habe deinen Report zu meinen Trello Brett hinzugefügt."
+        },
+        "autorole": {
+            "_usage": "d!autorole  <Rollen ID [--bots]|--clear>",
+            "_example": "d!autorole 363453489181097984",
+            "_description": "Setzt eine Autorolle für neue Mitglieder (oder Bots).",
+            "no_permission": "Du brauchst die **\"Manage Guild\"** Berechtigung um meine Sprache zu ändern.",
+            "db_put_error": "Es gab einen Fehler während des Speicherns in meiner Datenbank.",
+            "db_put_success": "Ich habe {0} als Default Rolle für neue Mitglieder gespeichert.",
+            "db_put_success_bots": "Ich habe {0} als Default Rolle für neue Bots gespeichert.",
+            "pro_tip": "Geheimtipp: Du kannst Rollen ID´s von dem d!roleids Befehl bekommen.",
+            "no_args": "Du musste eine Rollen ID angeben.",
+            "inexistent_role": "´{0}´ ist keine gültige Rollen ID auf diesem Server",
+            "clear_success": "Ich habe die Default Rollen gereinigt.",
+            "clear_error": "Irgendetwas lief beim Bereinigen der Default Rollen falsch.\n\n´{0}´ Wenn du denkst, dass dies ein Bug ist, dann melde ihn bitte mit ´d!bugreport`",
+            "no_roles": "Dieser Server besitzt keine Autorollen",
+            "everyone_role": "Mitgliederrolle",
+            "bots_role": "Botrolle"
+        },
+        "translate": {
+            "_usage": "d!translate [--gewollte Sprache] <Dein Text>",
+            "_example": "d!translate -en omae wa mou shindeiru",
+            "_description": "Übersetzt deinen Text in die angegebene Sprache mithilfe von Google Übersetzer",
+            "no_text": "Du musst mir Text zum übersetzen geben.",
+            "lang_not_supported": "Die Sprache ´{0}´ wird nicht unterstützt.",
+            "error_ocurred": "Es ist ein Fehler während des Übersetzens aufgetreten."
+        },
+        "pokedex": {
+            "_usage": "d!pokedex <Pokemonname>",
+            "_example": "d!pokedex Bisasam",
+            "_description": "Zeigt die Pokedexinformationenn über ein Pokemon.",
+            "error_ocurred": "Es ist ein Fehler beim Abrufen der PokeInfo aufgetreten.",
+            "not_found": "Ich konnte dieses Pokemon nicht finden.",
+            "no_args": "Du musste den Namen eines Pokemon angeben.",
+            "fields": {
+                "weight": "Breit",
+                "height": "Hoch"
+            }
+        },
+        "tmdb": {
+            "_usage": "d!tmdb <Film/TV-Show Name>",
+            "_example": "d!tmdb Boku No Hero",
+            "_description": "Zeigt die Übersicht über ein Film/TV-Show.",
+            "nothing_found": "Ich konnte nichts unter den Namen **\"{0}\"** finden.",
+            "tmdb_api_error": "Es ist ein Fehler während der Verbindung zu TMDB API aufgetreten.\n`{0}`\n\nBitte benutze `d!bugreport`um einen Report zu schicken.",
+            "no_name_specified": "Du musst einen spezifischen Film/ eine spezifische TV-Show eingeben.",
+            "no_overview_tv": "Für diese TV-Show ist keine Übersicht verfügbar.",
+            "no_overview_movie": "Für diesen Film ist keine Übersicht verfügbar."
+        },
+        "xkcd": {
+            "_usage": "d!xkcd [id|\"letztes\"]",
+            "_example": "d!xkcd 149",
+            "_description": "Zeigt eine XKCD. Wenn kein Argument genannt wurde, wird eine zufällige XKCD genannt!",
+            "error_latest": "Ich konnte die letzte XKCD nicht verwendend.",
+            "error_specific": "I wasn't able to fetch XKCD #{0}",
+            "not_integer": "Die XKCD Nummer sollte ein Integer sein!",
+            "error_random": "Ich konnte keine zufällige XKCD ermitteln"
+        },
+        "togethertube": {
+            "_usage": "d!togethertube",
+            "_description": "Erstellt ein TogetherTube  Raum.",
+            "error_title": "Ein Fehler ist beim erstellen des Raumes aufgetretten",
+            "error_description": "Bitte melde das mit ´d!bugreport´"
+        },
+        "say": {
+            "_usage": "d!say <Text|--embed <json>>",
+            "_description": "Zwingt den Bot etwas zu sagen.",
+            "_example": "d!say Hallo Welt",
+            "json_error_title": "Es ist ein Fehler beim auslesen, der JSON Datei aufgetretten.",
+            "json_error_desc": "You can use leovel's [embed visualizer](https://leovoel.github.io/embed-visualizer/) to check what's wrong."
+        },
+        "weather": {
+            "_usage": "d!weather <Ort oder Zone>",
+            "_description": "Sends over the forecast for the zone specified.",
+            "_example": "d!weather Californien",
+            "error_title": "An error ocured while fetching the forecast.",
+            "error_description": "Please report this using `d!bugreport`",
+            "specify_zone": "Bitte benenne eine Zone.",
+            "usage": "**Usage:** `d!weather <zone or location>`\n**Example:** `d!weather California`",
+            "forecast_on": "Forecast on {0}",
+            "forecast_day": "Temperatur für {0} [morgen]",
+            "temperature_after": "Höchsttemperatur: {0}ºC \nniedrigste Temperatur: {1}ºC",
+            "invalid_zone": "Falsche Zone.",
+            "current": "Aktuelle Temperatur:",
+            "temperature_before": "{0}ºC mit {1}% Luftfeuchtigkeit und einer Windgeschwindigkeit von {2}."
+        }
+    },
+    "usage": "**Nutzung:**",
+    "example": "**Beispiel:**",
+    "missing_manageguild_permission": "Du brauchst die **Guildverwaltungsberechtigung** um dies zu benutzen."
+}

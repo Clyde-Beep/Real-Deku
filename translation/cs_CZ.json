@@ -1,0 +1,282 @@
+{
+    "code": "cs_CZ",
+    "and": " a ",
+    "server_join": {
+        "hi_im_deku": "Ahoj, jsem Deku!",
+        "description": "Vytvořil mě **pedrofracassi#4623** abych mohl pomoct organizovat tvůj server.\n\nPokud se o mě chceš dozvědět víc, napiš `d!help`.\n\n{0} [Přidej mě na tvůj server]({1}) | [Připoj se na můj server]({2})"
+    },
+    "commands": {
+        "osu": {
+            "_description": "Ukáže osu! profil",
+            "_usage": "d!osu <id nebo uživatelské jméno>",
+            "title": "Profil hráče {0}",
+            "player_doesnt_exist": "Tento hráč neexistuje.",
+            "is_spelled_correctly": "Zkontroluj si prosím, jestli jsi to jméno napsal správně.",
+            "specify_player": "Prosím, specifikuj hráče.",
+            "usage": "**Použití:** `d!osu <id nebo uživatelské jméno>`\n**Například:** `d!osu electricas`",
+            "accuracy": "Přesnost",
+            "ranked_score": "Hodnocené skóre",
+            "total_score": "Celkové skóre",
+            "level": "Level",
+            "ranks": "Pořadí",
+            "performance": "Výkon",
+            "country_ranking": "Státní Hodnocení",
+            "global_ranking": "Globalní Hodnocení",
+            "play_count": "Počet her",
+            "weird_error": "osu! API vrátilo nulové hodnoty pro tento účet.",
+            "not_our_fault": "Za to já nemůžu, to ppy.\n\n[Pořád se na ten profil můžeš kouknout na stránce, jestli chceš.]({0})",
+            "error_ocurred": "Vyskytla se chyba při získávání osu! profilu."
+        },
+        "playing": {
+            "_description": "Ukáže kolik lidí zrovna hraje danou hru",
+            "_usage": "d!playing <hra>",
+            "zero": "Na tomto serveru zrovna **nikdo** `{0}` nehraje",
+            "one": "Na tomto serveru zrovna hraje **jeden člověk** `{0}`",
+            "more": "**{1}** lidí zrovna hraje `{0}`",
+            "error_no_args": "Musíš specifikovat hru!",
+            "usage": "**Použití:** `d!playing <hra>`\n**Například:** `d!playing Overwatch`"
+        },
+        "setlang": {
+            "_description": "Změní můj jazyk v serveru",
+            "_usage": "d!setlang <jazyk>",
+            "no_args": "Musíš specifikovat jazyk.",
+            "no_permission": "Potřebuješ právo **\"Spravovat Server\"** aby jsi mohl změnit můj jazyk.",
+            "not_supported": "\"{0}\" není podporovaný jazyk.",
+            "usage": "**Použití:** d!setlang <jazyk>\n**Příklad:** d!setlang cs_CZ\n\n**Podporované jazyky:**\n{0}.",
+            "success": "Jazyk úspěšně změněn na `{0}`!"
+        },
+        "botinfo": {
+            "_description": "Ukáže info o mě",
+            "_usage": "d!botinfo",
+            "error_ip": "Nastala chyba při získávání mé vlastní IP",
+            "error_ip_desc": "Prosím kontaktuj mého majitele, pedrofracassi#4623",
+            "users": "Uživatelé",
+            "servers": "Servery",
+            "server_location": "Lokace serveru",
+            "uptime": "Doba provozu",
+            "channels": "Kanály",
+            "ram": "Využití RAM",
+            "djs_v": "Verze Discord.js"
+        },
+        "lol": {
+            "mastery_points": "Body mistrovství",
+            "summoner_level": "Level vyvolávače",
+            "rankeds": "Hodnocené hry",
+            "Region": "Oblast",
+            "valid_regions": "**Platné oblasti:**",
+            "summoner_error": "Nastala chyba při načítání profilu vyvolávače.",
+            "summoner_error_desc": "Prosím, kontaktuj mého majitele (pedrofracassi#4623), aby to opravil",
+            "summoner_region_error": "Musíš specifikovat vyvolávače a oblast!",
+            "invalid_region_error": "\"{0}\" není platná oblast!",
+            "error_desc": "**Použití:** `d!lol <oblast> <vyvolávač>`",
+            "error_desc_with_regions": "**Použití:** `d!lol <oblast> <vyvolávač>`\n**Příklad:** `d!lol eune ShakeThatVulture`\n\n**Platné oblasti:**\n{0}.",
+            "no_summoner_error": "Musíš specifikovat vyvolávače!",
+            "elos": {
+                "UNRANKED": "Nehodnocená hra",
+                "BRONZE": "Bronze",
+                "SILVER": "Silver",
+                "GOLD": "Gold",
+                "DIAMOND": "Diamond",
+                "MASTER": "Master",
+                "CHALLENGER": "Challenger",
+                "PLATINUM": "Platinum"
+            },
+            "best_champion": "Nejlepší šampion",
+            "_description": "Ukáže informace o League of Legends vyvolávači",
+            "_usage": "d!lol <oblast> <vyvolávač>"
+        },
+        "lmgtfy": {
+            "_description": "Generuje \"Let Me Google That For You\" odkaz",
+            "_usage": "d!lmgtfy <hledaný výraz> [--explain]",
+            "no_question": "Musíš specifikovat otázku pro kterou chceš generovat odkaz.",
+            "_example": "d!lmgtfy"
+        },
+        "roleme": {
+            "_description": "Dá ti roli ze serveru.",
+            "_usage": "d!roleme [--add|--remove] <role> [ID role]",
+            "add_success": "Přidáno {0} do `d!roleme` jako `{1}`",
+            "id_not_role": "`{0}` není platné ID role na tomto serveru.",
+            "no_permission": "Na tohle potřebuješ právo **Spravovat Server**.",
+            "insuficcient_args_add": "Musíš specifikovat jméno role a ID role!",
+            "insuficcient_args_remove": "Musíš specifikovat jméno role!",
+            "add_usage": "**Použití:** `d!roleme --add <jméno role> <ID role>`\n**Příklad:** `d!roleme --add lol 358446520334286851`\n\nProfesionální tip: ID rolí můžeš získat z d!roleids",
+            "remove_usage": "**Použití:** `d!roleme --remove <jméno role>`\n**Příklad:** `d!roleme --remove lol`",
+            "no_roles": "Tento server nemá `d!roleme` role.",
+            "remove_success": "Vymazal jsem `{0}` z `d!roleme` rolí.",
+            "not_roleme": "`{0}` není `d!roleme` role.",
+            "no_roleme_roles": "Tento server nemá `d!roleme` role.",
+            "command": "Příkaz",
+            "role": "Role",
+            "heres_a_list": "Tady je výpis dostupných rolí:",
+            "role_give_success": "Dal jsem ti roli {0}.",
+            "role_remove_success": "Odebral jsem ti roli {0}:",
+            "role_give_fail": "Nebyl jsem schopen ti dát roli {0}.",
+            "role_remove_fail": "Nebyl jsem schopen ti odebrat roli {0}.",
+            "please_ask_owner": "Prosím, zeptej se majitele serveru aby omrknul moje práva.",
+            "invalid_rolename": "Nemůžeš použít toto jméno role!"
+        },
+        "roleids": {
+            "_usage": "d!roleids",
+            "_description": "Ukáže ID všech rolí serveru.",
+            "role": "Role",
+            "id": "ID"
+        },
+        "npm": {
+            "_usage": "d!npm <jméno balíčku>",
+            "_example": "d!npm discord.js",
+            "no_args": "Musíš specifikovat jméno balíčku.",
+            "package_not_found": "Nemohl jsem najít npm balíček s tímto jménem.",
+            "package_not_found_desc": "Prosím, zkontroluj jestli jsi to napsal správně.",
+            "_description": "Ukáže informace o npm balíčku"
+        },
+        "help": {
+            "check_dm": "Koukni se do soukromých zpráv, poslal jsem ti tam seznam příkazů.",
+            "_description": "Pošle ti soukromou zprávu se všemi mými příkazy",
+            "_usage": "d!help"
+        },
+        "topgames": {
+            "_description": "Ukáže nejvíc hrané hry na tomto serveru.",
+            "_usage": "d!topgames",
+            "most_played": "Nejvíc hrané hry",
+            "line_singular": "`#{0}` s `{1} hráčem: **{2}**",
+            "line_plural": "`#{0}` s `{1} hráči: **{2}**"
+        },
+        "serverinfo": {
+            "regions": {
+                "brazil": ":flag_br: Brazílie",
+                "eu-central": ":flag_eu: Střední Evropa",
+                "hongkong": ":flag_hk: Hongkong",
+                "us-central": ":flag_us: Střední Amerika",
+                "us-east": ":flag_us: Východní Amerika",
+                "us-south": ":flag_us: Jižní Amerika",
+                "us-west": ":flag_us: Západní Amerika",
+                "russia": ":flag_ru: Rusko",
+                "sydney": ":flag_au: Sydney",
+                "eu-west": ":flag_eu: Západní Evropa"
+            },
+            "_description": "Ukáže informace o serveru",
+            "_usage": "d!serverinfo",
+            "name": "Jméno",
+            "members": "Členové",
+            "owner": "Majitel",
+            "region": "Oblast",
+            "emojis": "Emoji",
+            "roles": "Role",
+            "id": "ID"
+        },
+        "stoptyping": {
+            "_description": "Tohle použij pokud nekonečně píšu",
+            "_usage": "d!stoptyping",
+            "trying_to_stop": "pokouším se zastavit psaní..."
+        },
+        "avatar": {
+            "own_picture": "tady je tvoje profilová fotka:",
+            "someones_picture": "tady je profilová fotka **{0}**"
+        },
+        "suggestion": {
+            "_usage": "d!suggestion <tvůj návrh>",
+            "_example": "d!suggestion Přidej příkaz který mi ukáže waifu",
+            "_description": "Pošle návrh mému vývojáři",
+            "no_suggestion": "Musíš něco navrhnout!",
+            "trello_error": "Nastala chyba při pokusu o přidání tvého návrhu na Trello.",
+            "trello_error_desc": "Prosím kontaktuj mého majitele nebo to zkus později.",
+            "card_add_success": "Přidal jsem tvůj návrh na moji Trello nástěnku."
+        },
+        "bugreport": {
+            "_usage": "d!bugreport <popiš bug *v angličtině*>",
+            "_example": "d!bugreport Deku can't use 100% of his features on my server",
+            "_description": "Nahlásí bug mému vývojáři",
+            "no_text": "Musíš specifikovat bug!",
+            "trello_error": "Nastala chyba při pokusu o přidání tvého hlášení do Trello.",
+            "trello_error_desc": "Prosím kontaktuj mého majitele nebo to zkus znovu později.",
+            "card_add_success": "Přidal jsem tvoje hlášení na moji Trello nástěnku."
+        },
+        "autorole": {
+            "_usage": "d!autorole <role id [--bots]|--clear>",
+            "_example": "d!autorole 363453489181097984",
+            "_description": "Nastaví výchozí roli pro nové členy (nebo boty)",
+            "no_permission": "Potřebuješ právo **'Spravovat Server'** aby jsi mohl změnit můj jazyk.",
+            "db_put_error": "Nastala chyba při ukládání do databáze.",
+            "db_put_success": "Uložil jsem {0} jako výchozí roli pro nové členy.",
+            "db_put_success_bots": "Uložil jsem {0} jako výchozí roli pro nové boty.",
+            "pro_tip": "Profesionální tip: ID rolí najdeš v d!roleids",
+            "no_args": "Musíš specifikovat ID role!",
+            "inexistent_role": "`{0}` není platné ID role pro tento server.",
+            "clear_success": "Vyčistil jsem výchozí role.",
+            "clear_error": "Něco se zkazilo při čištění výchozích rolí.\n\n`{0}`Pokud si myslíš že je to bug, nahlaš ho prosím pomocí `d!bugreport`",
+            "no_roles": "Tento sever nemá autorole.",
+            "everyone_role": "Role členů",
+            "bots_role": "Role botů"
+        },
+        "translate": {
+            "_usage": "d!translate [--jazyk] <tvůj text>",
+            "_example": "d!translate --en omae wa mou shindeiru",
+            "_description": "Přeloží text do daného jazyka pomocí Google překladače.",
+            "no_text": "Musíš mi dát nějakej text, jinak to nepřeložím!",
+            "lang_not_supported": "Jazyk `{0}` není podporován.",
+            "error_ocurred": "Nastala chyba při překládání textu."
+        },
+        "pokedex": {
+            "_usage": "d!pokedex <jméno pokémona>",
+            "_example": "d!pokedex bulbasaur",
+            "_description": "Ukáže pokedexové informace o pokémonovi.",
+            "error_ocurred": "Vyskytla se chyba při získávání informací o pokémonovi.",
+            "not_found": "Nemohl jsem najít tohoto pokémona!",
+            "no_args": "Musíš specifikovat jméno pokémona!",
+            "fields": {
+                "weight": "Hmotnost",
+                "height": "Výška"
+            }
+        },
+        "tmdb": {
+            "_usage": "d!tmdb <film/jméno seriálu>",
+            "_example": "d!tmdb Boku No Hero",
+            "_description": "Ukáže přehled filmu/seriálu",
+            "nothing_found": "Nemůžu najít nic se jménem **\"{0}\"**",
+            "tmdb_api_error": "Nastala chyba při kontaktování TMDB API.\n`{0}`\n\nProsím použij `d!bugreport` pro nahlášení.",
+            "no_name_specified": "Musíš specifikovat jméno filmu/seriálu!",
+            "no_overview_tv": "Tenhle seriál nemá žádný dostupný přehled.",
+            "no_overview_movie": "Tenhle film nemá žádný dostupný přehled."
+        },
+        "xkcd": {
+            "_usage": "d!xkcd [id|\"latest\"]",
+            "_example": "d!xkcd 149",
+            "_description": "Ukáže XKCD. Pokud není dodán argument, ukáže náhodné XKCD.",
+            "error_latest": "Nebyl jsem schopen dosáhnout posledního XKCD.",
+            "error_specific": "Nebyl jsem schopen dosáhnout XKCD #{0}",
+            "not_integer": "XKCD číslo by neměl být integer.",
+            "error_random": "Nebyl jsem schopen dosáhnout náhodného XKCD."
+        },
+        "togethertube": {
+            "_usage": "d!togethertube",
+            "_description": "Vytvoří TogetherTube místnost.",
+            "error_title": "Vyskytla se chyba při vytváření místnosti.",
+            "error_description": "Nahlaš problém pomocí `d!bugreport`"
+        },
+        "say": {
+            "_usage": "d!say <text|--embed <json>> ",
+            "_description": "Donutí bota něco říct.",
+            "_example": "d!say Ahoj světe.",
+            "json_error_title": "Nastala chyba při parsování tvého JSON.",
+            "json_error_desc": "Pro zjištění co je špatně můžeš použít leovelův [embed visualizer](https://leovoel.github.io/embed-visualizer/)."
+        },
+        "weather": {
+            "_usage": "d!weather <oblast či lokace>",
+            "_description": "Pošle předpověď počasí pro zadanou oblast.",
+            "_example": "d!weather California",
+            "error_title": "Nastala chyba při zjišťování předpovědi počasí.",
+            "error_description": "Prosím nahlaš tento problém pomocí `d!bugreport`",
+            "specify_zone": "Prosím specifikuj oblast.",
+            "usage": "**Použití:** `d!weather <oblast či lokace>`\n**Příklad:** `d!weather California`",
+            "forecast_on": "Předpověď pro {0}",
+            "forecast_day": "Teplota pro {0} [zítřek]:",
+            "temperature_after": "{0}ºC nejvyšší a {1}ºC nejnižší teploty.",
+            "invalid_zone": "Neplatná oblast.",
+            "current": "Aktualní Teplota:",
+            "temperature_before": "{0}°C, {1}% vlhkost vzduchu a rychlost větru {2}."
+        }
+    },
+    "usage": "**Použití:**",
+    "example": "**Příklad:**",
+    "missing_manageguild_permission": "Musíš mít právo **\"Spravovat Server\"** abys to mohl udělat"
+}

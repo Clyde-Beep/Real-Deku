@@ -1,0 +1,311 @@
+{
+    "code": "en_US",
+    "and": " and ",
+    "server_join": {
+        "hi_im_deku": "Hi, i'm Deku!",
+        "description": "I was made by **pedrofracassi#4623** to help organize your beautiful Guild.\n\nIf you want to know more about me, type `d!help`.\n\n{0} [Add me to your server]({1}) | [Join my server]({2})"
+    },
+    "commands": {
+        "osu": {
+            "_description": "Shows an osu! profile",
+            "_usage": "d!osu <id or username>",
+            "title": "{0}'s profile",
+            "player_doesnt_exist": "That player doesn't exist.",
+            "is_spelled_correctly": "Please check if you spelled the player's username correctly",
+            "specify_player": "Please specify a player",
+            "usage": "**Usage:** `d!osu <id or username>`\n**Example:** `d!osu pedrofracassi`",
+            "accuracy": "Accuracy",
+            "ranked_score": "Ranked Score",
+            "total_score": "Total Score",
+            "level": "Level",
+            "ranks": "Ranks",
+            "performance": "Performance",
+            "country_ranking": "Country Ranking",
+            "global_ranking": "Global Ranking",
+            "play_count": "Play Count",
+            "weird_error": "The osu! API returned null values for this account.",
+            "not_our_fault": "This is not my fault, it's ppy's.\n\n[You can still check the profile on the website if you want to.]({0})",
+            "error_ocurred": "An error ocurred while getting an osu! profile."
+        },
+        "playing": {
+            "_description": "Shows how many people are playing a certain game at the moment",
+            "_usage": "d!playing <game>",
+            "zero": "There is **no one** in this guild playing `{0}` at the moment",
+            "one": "There is **one person** in this guild playing `{0}` at the moment",
+            "more": "There are **{1}** people playing `{0}` at the moment",
+            "error_no_args": "You have to specify the game!",
+            "usage": "**Usage:** `d!playing <game>`\n**Example:** `d!playing Overwatch`"
+        },
+        "setlang": {
+            "_description": "Changes my language in the server",
+            "_usage": "d!setlang <language>",
+            "no_args": "You have to specify a language.",
+            "no_permission": "You need the **\"Manage Guild\"** permission in order to change my language.",
+            "not_supported": "\"{0}\" is not a supported language.",
+            "usage": "**Usage:** `d!setlang <language>`\n**Example:** `d!setlang en_US`\n\n**Supported languages:**\n{0}.",
+            "success": "Language changed to `{0}` with success!"
+        },
+        "botinfo": {
+            "_description": "Shows information about me",
+            "_usage": "d!botinfo",
+            "error_ip": "There was an error while getting my own IP",
+            "error_ip_desc": "Please contact my owner, pedrofracassi#4623",
+            "users": "Users",
+            "servers": "Servers",
+            "server_location": "Server Location",
+            "uptime": "Uptime",
+            "channels": "Channels",
+            "ram": "RAM Usage",
+            "djs_v": "Discord.js Version"
+        },
+        "lol": {
+            "mastery_points": "Mastery Points",
+            "summoner_level": "Summoner Level",
+            "rankeds": "Rankeds",
+            "Region": "Region",
+            "valid_regions": "**Valid Regions:**",
+            "summoner_error": "There was an error while getting this summoner profile.",
+            "summoner_error_desc": "Please contact my owner (pedrofracassi#4623) so he can fix this.",
+            "summoner_region_error": "You have to specify a summoner and a region!",
+            "invalid_region_error": "\"{0}\" is not a valid region!",
+            "error_desc": "**Usage:** `d!lol <region> <summoner>`\n**Example:** `d!lol br pedrinholuizf`",
+            "error_desc_with_regions": "**Usage:** `d!lol <region> <summoner>`\n**Example:** `d!lol br pedrinholuizf`\n\n**Valid regions:**\n{0}.",
+            "no_summoner_error": "You have to specify a summoner!",
+            "elos": {
+                "UNRANKED": "Unranked",
+                "BRONZE": "Bronze",
+                "SILVER": "Silver",
+                "GOLD": "Gold",
+                "DIAMOND": "Diamond",
+                "MASTER": "Master",
+                "CHALLENGER": "Challenger",
+                "PLATINUM": "Platinum"
+            },
+            "best_champion": "Best Champion",
+            "_description": "Shows information about a League of Legends summoner",
+            "_usage": "d!lol <region> <summoner>",
+            "nickname": "Nickname",
+            "summoner_not_found": "I couldn't find this summoner.",
+            "summoner_not_found_desc": "Did you choose the right region?"
+        },
+        "lmgtfy": {
+            "_description": "Generates a \"Let Me Google That For You\" link",
+            "_usage": "d!lmgtfy <search term> [--explain]",
+            "no_question": "You need to specify the question you want me to generate a link for.",
+            "_example": "d!lmgtfy How to download Discord Canary --explain"
+        },
+        "roleme": {
+            "_description": "Gives you a role from the server.",
+            "_usage": "d!roleme [--add|--remove] <role> [role ID]",
+            "add_success": "Added {0} to `d!roleme` as `{1}`",
+            "id_not_role": "`{0}` isn't a valid role ID for this server.",
+            "no_permission": "You need the **\"Manage Guild**\" permission in order to do this",
+            "insuficcient_args_add": "You need to specify a role name and role ID!",
+            "insuficcient_args_remove": "You need to specify a role name!",
+            "add_usage": "**Usage:** `d!roleme --add <role name> <role id>`\n**Example:** `d!roleme --add lol 358446520334286851`\n\nPro tip: You can get the role IDs from d!roleids",
+            "remove_usage": "**Usage:** `d!roleme --remove <role name>`\n**Example:** `d!roleme --remove lol`",
+            "no_roles": "This server doesn't have `d!roleme` roles.",
+            "remove_success": "I removed `{0}` from the `d!roleme` roles.",
+            "not_roleme": "`{0}` isn't a `d!roleme` role.",
+            "no_roleme_roles": "This server doesen't have `d!roleme` roles.",
+            "command": "Command",
+            "role": "Role",
+            "heres_a_list": "Here's a list of avaliable roles:",
+            "role_give_success": "I gave you the role {0}.",
+            "role_remove_success": "I removed the role {0} from you.",
+            "role_give_fail": "I wasn't able to give you the role {0}.",
+            "role_remove_fail": "I wasn't able to remove the role {0} from you.",
+            "please_ask_owner": "Please ask the server owner to check my permissions.",
+            "invalid_rolename": "You can't use this role name!"
+        },
+        "roleids": {
+            "_usage": "d!roleids",
+            "_description": "Shows the IDs of the server's roles",
+            "role": "Role",
+            "id": "ID"
+        },
+        "npm": {
+            "_usage": "d!npm <package name>",
+            "_example": "d!npm discord.js",
+            "no_args": "You need to specify a package name.",
+            "package_not_found": "I couldn't find a npm package by that name.",
+            "package_not_found_desc": "Please check if you spelled it correctly.",
+            "_description": "Shows information about a npm package"
+        },
+        "help": {
+            "check_dm": "Check your private messages, I've sent you my command list there.",
+            "_description": "Sends you a private message with all of my commands",
+            "_usage": "d!help"
+        },
+        "topgames": {
+            "_description": "Shows the most played games in the server.",
+            "_usage": "d!topgames",
+            "most_played": "Most played games",
+            "line_singular": "`#{0}` with `{1}` player: **{2}**",
+            "line_plural": "`#{0}` with `{1}` players: **{2}**"
+        },
+        "serverinfo": {
+            "regions": {
+                "brazil": ":flag_br: Brazil",
+                "eu-central": ":flag_eu: EU Central",
+                "hongkong": ":flag_hk: Hongkong",
+                "us-central": ":flag_us: US Central",
+                "us-east": ":flag_us: US East",
+                "us-south": ":flag_us: US South",
+                "us-west": ":flag_us: US West",
+                "russia": ":flag_ru: Russia",
+                "sydney": ":flag_au: Sydney",
+                "eu-west": ":flag_eu: Western Europe"
+            },
+            "_description": "Shows information about the server",
+            "_usage": "d!serverinfo",
+            "name": "Name",
+            "members": "Members",
+            "owner": "Owner",
+            "region": "Region",
+            "emojis": "Emojis",
+            "roles": "Roles",
+            "id": "ID"
+        },
+        "stoptyping": {
+            "_description": "Use this if I'm typing forever",
+            "_usage": "d!stoptyping",
+            "trying_to_stop": "trying to stop typing..."
+        },
+        "avatar": {
+            "_description": "Shows yours or someone's profile picture in full size",
+            "_usage": "d!avatar [user]",
+            "own_picture": "here's your profile picture:",
+            "someones_picture": "here's **{0}**'s profile picture:"
+        },
+        "suggestion": {
+            "_usage": "d!suggestion <your suggestion>",
+            "_example": "d!suggestion Add a command that shows me waifus",
+            "_description": "Sends a suggestion to my developer",
+            "no_suggestion": "You need to suggest something!",
+            "trello_error": "An error ocurred while trying to add your suggestion to Trello.",
+            "trello_error_desc": "Please contact my owner or try again later.",
+            "card_add_success": "I've added your suggestion to my Trello board."
+        },
+        "bugreport": {
+            "_usage": "d!bugreport <explain the bug>",
+            "_example": "d!bugreport Deku can't use 100% of his powers on my server",
+            "_description": "Reports a bug to my developer",
+            "no_text": "You need describe a bug!",
+            "trello_error": "An error ocurred while trying to add your report to Trello.",
+            "trello_error_desc": "Please contact my owner or try again later.",
+            "card_add_success": "I've added your report to my Trello board."
+        },
+        "autorole": {
+            "_usage": "d!autorole <role id [--bots]|--clear>",
+            "_example": "d!autorole 363453489181097984",
+            "_description": "Sets a default role for new members (or bots)",
+            "no_permission": "You need the **\"Manage Guild\"** permission in order to change my language.",
+            "db_put_error": "There was an error while saving that into the database.",
+            "db_put_success": "I saved {0} as the default role for new members.",
+            "db_put_success_bots": "I saved {0} as the default role for new bots.",
+            "pro_tip": "Pro tip: You can get role IDs from the d!roleids command",
+            "no_args": "You need to specify a role ID!",
+            "inexistent_role": "`{0}` isn't a valid role ID for this server.",
+            "clear_success": "I cleared the default roles.",
+            "clear_error": "Something went wrong while clearing the default roles.\n\n`{0}`If you think this is a bug, please report it using `d!bugreport`",
+            "no_roles": "This server doesn't have autoroles.",
+            "everyone_role": "Members role",
+            "bots_role": "Bots role"
+        },
+        "translate": {
+            "_usage": "d!translate [--desiredlanguage] <your text>",
+            "_example": "d!translate --en omae wa mou shindeiru",
+            "_description": "Translates your text into the desired language using Google Translate.",
+            "no_text": "You need to give me some text to translate!",
+            "lang_not_supported": "The language `{0}` is not supported.",
+            "error_ocurred": "An error ocurred while translating your text."
+        },
+        "pokedex": {
+            "_usage": "d!pokedex <pokémon name>",
+            "_example": "d!pokedex bulbasaur",
+            "_description": "Shows pokedex's information about a pokémon.",
+            "error_ocurred": "An error ocurred while getting your pokémon info.",
+            "not_found": "I couldn't find this pokémon!",
+            "no_args": "You need to specify a pokémon name!",
+            "fields": {
+                "weight": "Weight",
+                "height": "Height"
+            }
+        },
+        "tmdb": {
+            "_usage": "d!tmdb <film/tv show name>",
+            "_example": "d!tmdb Boku No Hero",
+            "_description": "Displays the overview of a film/tv show",
+            "nothing_found": "I couldn't find anything by the name **\"{0}\"**",
+            "tmdb_api_error": "An error ocurred while contacting the TMDB API.\n`{0}`\n\nPlease use `d!bugreport` to report this.",
+            "no_name_specified": "You need to specify a movie/tv show name!",
+            "no_overview_tv": "This TV Show doesn't have an overview avaliable.",
+            "no_overview_movie": "This movie doesn't have an overview avaliable."
+        },
+        "xkcd": {
+            "_usage": "d!xkcd [id|\"latest\"]",
+            "_example": "d!xkcd 149",
+            "_description": "Shows a XKCD. If no argument is provided, will show a random XKCD.",
+            "error_latest": "I wasn't able to fetch the latest XKCD.",
+            "error_specific": "I wasn't able to fetch XKCD #{0}",
+            "not_integer": "The XKCD number should be an integer.",
+            "error_random": "I wasn't able to fetch the a random XKCD."
+        },
+        "togethertube": {
+            "_usage": "d!togethertube",
+            "_description": "Creates a TogetherTube room.",
+            "error_title": "An error ocurred while creating the room.",
+            "error_description": "Please report this using `d!bugreport`"
+        },
+        "say": {
+          "_usage": "d!say <text|--embed <json>>",
+          "_description": "Forces the bot to say something.",
+          "_example": "d!say Hello World",
+          "json_error_title": "An error ocurred while parsing your JSON.",
+          "json_error_desc": "You can use leovel's [embed visualizer](https://leovoel.github.io/embed-visualizer/) to check what's wrong."
+        },
+        "roleinfo": {
+            "_usage": "d!roleinfo <@mention|role id|role name>",
+            "_description": "Shows information about a specific role.",
+            "_example": "d!roleinfo @Role",
+            "no_role_specified": "You need to specify the role you want to get information about",
+            "memberCount": "Member count",
+            "color": "Color",
+            "id": "ID",
+            "roleName": "Name",
+            "rolePosition": "Position",
+            "creationTimestamp": "Creation timestamp",
+            "hoist": "Showed separately",
+            "position": "Position",
+            "role_not_found": "I couldn't find a role with the information you gave me."
+        },
+        "weather": {
+            "_usage": "d!weather <zone or location>",
+            "_description": "Sends over the forecast for the zone specified.",
+            "_example": "d!weather California",
+            "error_title": "An error ocured while fetching the forecast.",
+            "error_description": "Please report this using `d!bugreport`",
+            "specify_zone": "Please specify a zone.",
+            "usage": "**Usage:** `d!weather <zone or location>`\n**Example:** `d!weather California`",
+            "forecast_on": "Forecast on {0}",
+            "forecast_day": "Temperature for {0} [tomorrow]:",
+            "temperature_after": "{0}ºC maximum and {1}ºC minimum temperatures.",
+            "invalid_zone": "Invalid zone.",
+            "current": "Current Temperature:",
+            "temperature_before": "{0}ºC with {1}% of air humidity and {2} air speed."
+        },
+        "knowyourmeme": {
+            "_usage": "d!knowyourmeme [meme]",
+            "_description": "Shows information about a meme from KnowYourMeme",
+            "_example": "d!knowyourmeme ugandanknuckles",
+            "not_found": "No meme was found for \"{0}\".",
+            "meme_error": "Something went wrong while finding your meme"
+        }
+    },
+    "usage": "**Usage:**",
+    "example": "**Example:**",
+    "yes": "Yes",
+    "no": "No",
+    "missing_manageguild_permission": "You need the **\"Manage Guild**\" permission in order to do this"
+}
